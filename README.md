@@ -17,3 +17,7 @@ Por su similitud de la placa de ESP32 y de Arduino Uno, nos permite usar el mism
 ![image](https://github.com/VanillaCow14/IoT/assets/142856302/2c026d71-9300-4bae-b274-96f5197f4072)
 
 Este codigo es que encontramos en el propio repositorio puesto que es con el que se ejecuto la prueba para poder prender el led y corrrobar que la placa estaba funcionando. 
+
+![image](https://github.com/VanillaCow14/IoT/assets/142856302/b09b0f44-366a-467c-882d-aaf2a096a1ba)
+
+Aqui vemos que en efecto el led emite luz con este codigo. 
