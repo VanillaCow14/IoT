@@ -10,3 +10,10 @@ El código se divide en tres partes la primera es la declaración del led el cua
 ![image](https://github.com/VanillaCow14/IoT/assets/142856302/684273c3-3c8c-4a19-9e9b-e92de8a991b0)
 
 Aquí vemos el circuito prendido con nuestro led emitiendo luz.
+
+
+Por su similitud de la placa de ESP32 y de Arduino Uno, nos permite usar el mismo codigo para que prenda la placa del ESP32 solo cambiando el pin con el que se va a ejecutar la prueba
+
+![image](https://github.com/VanillaCow14/IoT/assets/142856302/2c026d71-9300-4bae-b274-96f5197f4072)
+
+Este codigo es que encontramos en el propio repositorio puesto que es con el que se ejecuto la prueba para poder prender el led y corrrobar que la placa estaba funcionando. 
