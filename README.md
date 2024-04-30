@@ -1,6 +1,7 @@
 # IoT
 Proyecto parte de la materia programacion para internet. 
 
+# Introduccion.
 Para comenzar con este proyecto se tuvieron que conseguir distintas cosas por ejemplo conocimiento en Arduino y distintas placas para poder trabajar con ellas como lo son la placa ESP32 y Arduino Uno.
 
 ![image](https://github.com/VanillaCow14/IoT/assets/142856302/d281e170-d83f-421f-be60-413116b3ca2d)
@@ -21,3 +22,6 @@ Este codigo es que encontramos en el propio repositorio puesto que es con el que
 ![image](https://github.com/VanillaCow14/IoT/assets/142856302/b09b0f44-366a-467c-882d-aaf2a096a1ba)
 
 Aqui vemos que en efecto el led emite luz con este codigo. 
+
+# Procedimiento de Arduino a IoT. 
+
