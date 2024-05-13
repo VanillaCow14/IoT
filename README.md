@@ -24,4 +24,19 @@ Este codigo es que encontramos en el propio repositorio puesto que es con el que
 Aqui vemos que en efecto el led emite luz con este codigo. 
 
 # Procedimiento de Arduino a IoT. 
+Para que esto suceda necesitaremos dos cosas la primera es el codigo de arduino adecuado a lo que necesita el dispositivo que en este caso es que prenda el foco segun una interfaz y en esta misma es la segunda cosa que necesitamos una interfaz que en este caso sera una una pagina de HTML que mas adelante veremos como es que se construyo. 
+
+# Interfaz. 
+La primera evolucion de esta interfaz fue una ppequeña prueba en en este caso fue con tkinter en python.
+
+![image](https://github.com/VanillaCow14/IoT/assets/142856302/328746a6-4575-472b-963c-3f28b57da19c)
+
+Como se puede ver es un codigo muy simple que consta de un boton que prende y apaga el led.
+
+![image](https://github.com/VanillaCow14/IoT/assets/142856302/a2d4cfcd-fc16-47c7-87a1-2cb2bba4fc0b)
+
+Como vemos aqui esta es toda la interfaz se puede ver un poco arcaica pero para garantizar el funcionamiento basico sirve mas que bien. Sin embargo, la idea es como se comento anteriormente hacer una pagina web con distintas funciones. 
+
+
+
 
