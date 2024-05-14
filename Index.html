@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hogar Inteligente</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .additional-info {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Hogar Inteligente</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dispositivosDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dispositivos
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dispositivosDropdown">
+          <a class="dropdown-item" href="#" onclick="toggleInfo('termostato')">Termostato</a>
+          <a class="dropdown-item" href="#" onclick="toggleInfo('luces')">Foco Inteligente</a>
+          <a class="dropdown-item" href="#" onclick="toggleInfo('camara')">Cámara de seguridad</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="recomendacionesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Recomendaciones
+        </a>
+        <div class="dropdown-menu" aria-labelledby="recomendacionesDropdown">
+          <a class="dropdown-item" href="#">Programar el termostato para ahorrar energía</a>
+          <a class="dropdown-item" href="#">Apagar las luces cuando no estés en casa</a>
+          <a class="dropdown-item" href="#">Revisar el estado de la cerradura inteligente</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Iniciar Sesión</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="termostatoInfo" class="additional-info">
+        <h3>Termostato</h3>
+        <p>El termostato inteligente te permite controlar la temperatura de tu hogar de manera remota y programar horarios para ahorrar energía.</p>
+      </div>
+      <div id="lucesInfo" class="additional-info">
+        <h3>Luces inteligentes</h3>
+        <p>Las luces inteligentes te permiten ajustar el brillo y programar horarios de encendido y apagado para optimizar el consumo de energía.</p>
+      </div>
+      <div id="camaraInfo" class="additional-info">
+        <h3>Cámara de seguridad</h3>
+        <p>La cámara de seguridad inteligente te ofrece visualización en tiempo real y notificaciones de movimiento para mantener tu hogar seguro.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  function toggleInfo(device) {
+    var infoElement = document.getElementById(device + 'Info');
+    if (infoElement.style.display === 'none') {
+      infoElement.style.display = 'block';
+    } else {
+      infoElement.style.display = 'none';
+    }
+  }
+</script>
+</body>
+</html>
