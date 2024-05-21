@@ -27,6 +27,42 @@ Aqui vemos que en efecto el led emite luz con este codigo.
 Para poder generar el cambio de un simple arduino a IoT se requiere de una interfaz en este caso se busca usar una pagina web esta pagina web se debe de cargar de cierta forma al arduino ya que ahi mismo es donde se almacena la pagina en este caso se tiene algo muy peculiar y es que se puede traspolar a algo mas grande que mas adelante mostraremos.
 
 
+Con el archivo IoT.ino es que se controla la placa y que tenemos la web creada.
+
+![image](https://github.com/VanillaCow14/IoT/assets/142856302/e12775cf-11e3-4aa9-adf6-73337a255890)
+
+
+Como se puede ver se tiene el boton de encendido y de apagado que en efecto prende y apaga el propio led esto gracias al servidor con la ip que monta la propia placa. 
+
+![image](https://github.com/VanillaCow14/IoT/assets/142856302/c60027f8-8b24-4512-8f2a-61e7888199dd)
+
+Sin embargo y como se comentaba anteriormente esta idea se puede escalar a un sistema entero esto teniendo los modulos y los equipamientos necesarios para hacer un ecosistema de hogar inteligente como se mostrara en seguida.
+
+![image](https://github.com/VanillaCow14/IoT/assets/142856302/2469eb7a-0232-4fa7-b4ef-4c159dac8d6c)
+
+Como podemos ver tenemos multiples opciones que se tienen como lo son recomendaciones, los dispositivos que se tienen adquiridos y un inicio de sesion.
+
+![image](https://github.com/VanillaCow14/IoT/assets/142856302/cf8b0dbe-4ce3-4a8e-9200-2c2e7e78c753)
+
+Con los dispositivos se tiene que se pueden tener esta variedad de dispositivos.
+
+![image](https://github.com/VanillaCow14/IoT/assets/142856302/a9dace42-59a7-4030-96ab-d9513e40fd5e)
+
+Se pueden apreciar las distintas recomendaciones que se le da al usuario.
+
+![image](https://github.com/VanillaCow14/IoT/assets/142856302/6c43bc59-066c-46a0-a896-6b56378bae4f)
+
+Y si actualmente se necesitara podria controlar ya nuestro led.
+
+
+
+
+
+
+
+
+
+
 
 
 
