@@ -24,9 +24,9 @@ Este codigo es que encontramos en el propio repositorio puesto que es con el que
 Aqui vemos que en efecto el led emite luz con este codigo. 
 
 # Procedimiento de Arduino a IoT. 
-Para poder generar el cambio de un simple arduino a IoT se requiere de una interfaz en este caso se busca usar una pagina web esta pagina web se debe de cargar de cierta forma al arduino ya que ahi mismo es donde se almacena la web.
+Para poder generar el cambio de un simple arduino a IoT se requiere de una interfaz en este caso se busca usar una pagina web esta pagina web se debe de cargar de cierta forma al arduino ya que ahi mismo es donde se almacena la pagina en este caso se tiene algo muy peculiar y es que se puede traspolar a algo mas grande que mas adelante mostraremos.
 
-# Interfaz. 
+
 
 
 
