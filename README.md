@@ -26,6 +26,25 @@ Aqui vemos que en efecto el led emite luz con este codigo.
 # Procedimiento de Arduino a IoT. 
 Para poder generar el cambio de un simple arduino a IoT se requiere de una interfaz en este caso se busca usar una pagina web esta pagina web se debe de cargar de cierta forma al arduino ya que ahi mismo es donde se almacena la pagina en este caso se tiene algo muy peculiar y es que se puede traspolar a algo mas grande que mas adelante mostraremos.
 
+Para empezar con el archivo .ino
+Vemos que se tiene decclaradas varias cosas la mas importande de todas estas la libreria WiFi.h y las credenciales del internet que se este usando. 
+
+![image](https://github.com/VanillaCow14/IoT/assets/142856302/91b10c52-981a-41be-bf4b-3cad709f5aa1)
+
+Acto seguido se continua con la configuracion de la pagina web la cual se tiene escrita completamente aqui. 
+
+![Captura de pantalla 2024-05-20 192327](https://github.com/VanillaCow14/IoT/assets/142856302/4c39359c-f088-4c19-8ebf-0f084849e44b)
+![Captura de pantalla 2024-05-20 192346](https://github.com/VanillaCow14/IoT/assets/142856302/8a657f25-fff1-4c35-9c1a-7a98fd435c2f)
+![Captura de pantalla 2024-05-20 192357](https://github.com/VanillaCow14/IoT/assets/142856302/0bbe90e3-a0e3-4e79-97e6-de91d8df3586)
+
+Despues seguiria la configuracion de de nuestros pines y lo que se busca conseguir con ellos. 
+
+![Captura de pantalla 2024-05-20 192412](https://github.com/VanillaCow14/IoT/assets/142856302/b2a9c1b0-8272-4f72-b043-6a7e4113c169)
+
+Por ultimo encontramos con el ciclo que seguira nuestro led mientras esta conectado. 
+
+![Captura de pantalla 2024-05-20 192438](https://github.com/VanillaCow14/IoT/assets/142856302/9dd4b292-3fff-40c8-90ef-132fd672f8bc)
+
 
 Con el archivo IoT.ino es que se controla la placa y que tenemos la web creada.
 
